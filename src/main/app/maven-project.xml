@@ -11,7 +11,7 @@ http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/m
     <flow name="mavenFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/hello" doc:name="HTTP"/>
         <response>
-            <set-payload value="#[&quot;Hello World&quot;]" doc:name="Set Payload"/>
+            <set-payload value="#[&quot;Hello Maven&quot;]" doc:name="Set Payload"/>
         </response>
     </flow>
 </mule>
