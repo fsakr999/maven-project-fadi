@@ -168,7 +168,6 @@
             <scope>provided</scope>
         </dependency>
 
-
 	<!-- Non-mule dependencies -->
     <dependency>
             <groupId>org.apache.derby</groupId>
